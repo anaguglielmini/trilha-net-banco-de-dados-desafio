@@ -89,3 +89,18 @@ Você deverá criar diversas consultas, com o objetivo de retornar os dados a se
 ## 12 - Buscar o nome do filme e os atores, trazendo o PrimeiroNome, UltimoNome e seu Papel
 
 ![Exercicio 12](Imagens/12.png)
+
+
+
+# Nota da Aluna
+Na busca 7, foi solicitado o seguinte:
+
+"Buscar a quantidade de filmes lançadas no ano, agrupando por ano, ordenando pela duracao em ordem decrescente".
+
+Porém, na imagem de exemplo vemos que esta em ordem decrescente a Quantidade e não a duracao, tanto que não funcionaria se colocasse duracao no order by.
+
+O certo seria:
+
+"Buscar a quantidade de filmes lançadas no ano, agrupando por ano, ordenando pela quantidade em ordem decrescente".
+
+Assim, o resultado saí igual ao que é solicitado na imagem de exemplo.
